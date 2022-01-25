@@ -30,7 +30,7 @@ etc)
 ---
 
 - [Mi solucion](#mi-solucion)
-- [Descripción y contexto](#descripción-y-contexto)
+- [Descripción y contexto](#diagrama-entidad-relacion)
 - [Guía de usuario](#guía-de-usuario)
 - [Guía de instalación](#guía-de-instalación)
 - [Cómo contribuir](#cómo-contribuir)
@@ -42,31 +42,23 @@ etc)
 
 ## Mi solucion
 ---
-Es común en muchos repositorios open source el uso de badges o escudos para dar visbilidad el uso de microservicios, licencias, descargas, etc. Recomendamos revisar la iniciativa https://shields.io/ donde según consideres necesario podrás generar badges para tu repo. 
+Lo primero que hice fue organizar mi trabajo utilizando la herramienta https://trello.com/ de la siguiente manera 
 
-### Ejemplos de badges
 
-- code coverage percentage: ![coverage](https://img.shields.io/badge/coverage-80%25-yellowgreen)
-- stable release version: ![version](https://img.shields.io/badge/version-1.2.3-blue)
-- package manager release: ![gem](https://img.shields.io/badge/gem-2.2.0-blue)
-- status of third-party dependencies: ![dependencies](https://img.shields.io/badge/dependencies-out%20of%20date-orange)
-- static code analysis grade: ![codacy](https://img.shields.io/badge/codacy-B-green)
-- [SemVer](https://semver.org/) version observance: ![semver](https://img.shields.io/badge/semver-2.0.0-blue)
-- amount of [Liberapay](https://liberapay.com/) donations per week: ![receives](https://img.shields.io/badge/receives-2.00%20USD%2Fweek-yellow)
-- Python package downloads: ![downloads](https://img.shields.io/badge/downloads-13k%2Fmonth-brightgreen)
-- Chrome Web Store extension rating: ![rating](https://img.shields.io/badge/rating-★★★★☆-brightgreen)
-- [Uptime Robot](https://uptimerobot.com) percentage: ![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
 
-### Badges que solicitamos:
+- Trabaje bajo el enfoque de Scrum por lo que estableci 5 columnas "Product Backlog", "To Do", "In Progress", "Testing" y "Done"
+- Decidi trabajr con spring boot y postgreSql por que son las tecnologias con las que he trabajado el ultimo año en el lado del backend
+- Segui la estructura MVC para la codificacion del proyecto utilizando una cuarta capa destinada a los servicios que me permiten exprimir las bondades y facilidades de trabajar con spring boot y JPA 
+- Para la gestion de los usuarios y sus roles utilice spring security, el cual me permite configurar las url de la api para definir que tipo de usuario puede acceder o realizar una peticion al proyecto backend
+
+![image](https://user-images.githubusercontent.com/65741905/150896455-b2a28045-a5cd-4c8e-8f5b-1877b2d180fa.png)
+ Nota : la columna Done esta duplicada con el fin de que se puedan observar todas las actividades que se encuentran en ella
+
+### Diagrama Entidad Relación :
 ---
-En la iniciativa Código para el Desarrollo solicitamos a los equipos que suman sus herramientas al catálogo de sumar el badge generado por el uso del microservicio de evaluación estática de código SonarCloud.
+![panaderiatest](https://user-images.githubusercontent.com/65741905/150896658-b04f0617-fb0a-4be9-83af-53ac969a00b4.png)
 
-El badge se ve así y redirige al reporte de evaluación estática del último commit de la herramienta:
-
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=EL-BID_guia-de-publicacion&metric=alert_status)](https://sonarcloud.io/dashboard?id=EL-BID_guia-de-publicacion)
-
-
-## Descripción y contexto
+## Po
 ---
 Esto es un archivo README. Debe contener la documentación de soporte uso de la herramienta digital. Las siguientes secciones son las secciones recomendadas que debes poner incluir en cualquier herramienta digital. Puedes descargar este archivo para que te sirva como plantilla.
 
