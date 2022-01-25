@@ -28,7 +28,7 @@ mejoras.
 
 
 <h1 align="center"> PanaderiaAPI</h1>
-<p align="center"><img src="https://www.google.com.ec/url?sa=i&url=https%3A%2F%2Frefactorizando.com%2Fejemplo-spring-data-postgresql-docker%2F&psig=AOvVaw0zl5D1c8tCBFjPYdQm9y7H&ust=1643159125672000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOCuufvay_UCFQAAAAAdAAAAABAD"/></p> 
+<p align="center"><img src="https://refactorizando.com/wp-content/uploads/2020/12/spring-data-postgresql-1024x308.jpeg"/></p> 
 
 ## Tabla de contenidos:
 ---
