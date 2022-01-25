@@ -29,7 +29,7 @@ etc)
 ## Tabla de contenidos:
 ---
 
-- [Badges o escudos](#badges-o-escudos)
+- [Mi solucion](#mi-solucion)
 - [Descripción y contexto](#descripción-y-contexto)
 - [Guía de usuario](#guía-de-usuario)
 - [Guía de instalación](#guía-de-instalación)
@@ -40,7 +40,7 @@ etc)
 - [Licencia](#licencia)
 - [Limitación de responsabilidades - Solo BID](#limitación-de-responsabilidades)
 
-## Badges o escudos
+## Mi solucion
 ---
 Es común en muchos repositorios open source el uso de badges o escudos para dar visbilidad el uso de microservicios, licencias, descargas, etc. Recomendamos revisar la iniciativa https://shields.io/ donde según consideres necesario podrás generar badges para tu repo. 
 
