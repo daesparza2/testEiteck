@@ -21,13 +21,9 @@ escenario; para ello:
 - Base de datos: la de su preferencia, PostgreSQL, MySQL, NoSQL, etc
 - Documentación adecuada de los endpoints generados (urls, formatos en solicitudes POST,
 etc)
-Una vez que haya terminado el ejercicio, cargue la solución en GitHub y envíenos el enlace. No
-olvide incluir un archivo README.md. Su README debe incluir una descripción general de su
-solución, una explicación de su arquitectura, una explicación de su enfoque, metodología y posibles
-mejoras.
 
 
-<h1 align="center"> PanaderiaAPI</h1>
+<h1 align="center"> PanaderiAPI</h1>
 <p align="center"><img src="https://refactorizando.com/wp-content/uploads/2020/12/spring-data-postgresql-1024x308.jpeg"/></p> 
 
 ## Tabla de contenidos:
