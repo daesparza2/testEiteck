@@ -77,6 +77,14 @@ El uso de la api necesita las siguientes credenciales
    username: jose
    password: delivery
 
+Las url son las siguientes:
 
+http://env-1690261.sp.skdrive.net/caja/registrar esta es una solicitud de tipo post que recive el siguiente parametro 
  	
-
+  Puedes usar este estilo de letra diferenciar los comandos de instalación.
+{
+    "nombre": "empanada",
+    "precio": 3.00,
+    "cantidad": 8,
+    "descripcion": "esto es una caja de empanadas"
+}
