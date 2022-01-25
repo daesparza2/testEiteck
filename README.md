@@ -81,10 +81,46 @@ Las url son las siguientes:
 
 http://env-1690261.sp.skdrive.net/caja/registrar esta es una solicitud de tipo post que recive el siguiente parametro 
  	
-  Puedes usar este estilo de letra diferenciar los comandos de instalación.
+
 {
     "nombre": "empanada",
     "precio": 3.00,
     "cantidad": 8,
     "descripcion": "esto es una caja de empanadas"
 }
+
+http://env-1690261.sp.skdrive.net/imagen/guardar esta es una solicitud de tipo post y recive 2 parametros 
+
+1. file : el archivo de la imagen que se desea guardar
+2. id : el identificador de la caja a la que se le desea asociar la imagen
+
+http://env-1690261.sp.skdrive.net/pedido/registrar esta es una solicitud tipo pst y recive el siguiente parametro 
+
+{
+    "cliente": "Alejandro",
+    "fecha": "2022-01-24",
+    "tipoPago": true,
+    "estado": false,
+    "total": null,
+    "direccion": "Quito Av 10 de Agosto",
+    "telefono": "0987456321",
+    "cajas": null,
+    "usuarioId": 2
+}
+
+En donde 
+- usuarioId: es el id del usuario que registra el pedido
+- tipoPago: true si es con tarjeto o false si es con efectivo 
+- estado: true si fue entregado o false si aun no es entregado
+
+http://env-1690261.sp.skdrive.net/pedido/addCajaPedido es una peticion de tipo post y recive 2 parametros 
+
+1. idcaja: identificador de la caja que se quiere agregar al pedido
+2. idpedido: identificador del pedido
+
+http://env-1690261.sp.skdrive.net/pedido/listar es una peticion tipo get que retorna todos los pedidos
+
+http://env-1690261.sp.skdrive.net/caja/listar es una peticion de tipo get que retorna todas las cajas
+
+http://env-1690261.sp.skdrive.net/usuario/listaEnvios/id es una peticion de tipo get cuyo parametro id recive el id del usuario tipo delivery y retorna los datos del usuario y la lista de pedidos que tiene a su cargo
+
