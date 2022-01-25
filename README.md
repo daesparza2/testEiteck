@@ -30,7 +30,7 @@ etc)
 ---
 
 - [Mi solucion](#mi-solucion)
-- [Descripción y contexto](#diagrama-entidad-relacion)
+- [Diagrama Entidad Relacion](#diagrama-entidad-relacion)
 - [Guía de usuario](#guía-de-usuario)
 - [Guía de instalación](#guía-de-instalación)
 - [Cómo contribuir](#cómo-contribuir)
@@ -54,7 +54,7 @@ Lo primero que hice fue organizar mi trabajo utilizando la herramienta https://t
 ![image](https://user-images.githubusercontent.com/65741905/150896455-b2a28045-a5cd-4c8e-8f5b-1877b2d180fa.png)
  Nota : la columna Done esta duplicada con el fin de que se puedan observar todas las actividades que se encuentran en ella
 
-### Diagrama Entidad Relación :
+### Diagrama Entidad Relacion :
 ---
 ![panaderiatest](https://user-images.githubusercontent.com/65741905/150896658-b04f0617-fb0a-4be9-83af-53ac969a00b4.png)
 
