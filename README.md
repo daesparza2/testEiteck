@@ -74,13 +74,15 @@ Las url son las siguientes:
 
 http://env-1690261.sp.skdrive.net/caja/registrar esta es una solicitud de tipo post que recive el siguiente parametro 
  	
-
+```bash
 {
     "nombre": "empanada",
     "precio": 3.00,
     "cantidad": 8,
     "descripcion": "esto es una caja de empanadas"
 }
+```
+
 
 http://env-1690261.sp.skdrive.net/imagen/guardar esta es una solicitud de tipo post y recive 2 parametros 
 
@@ -89,6 +91,7 @@ http://env-1690261.sp.skdrive.net/imagen/guardar esta es una solicitud de tipo p
 
 http://env-1690261.sp.skdrive.net/pedido/registrar esta es una solicitud tipo pst y recive el siguiente parametro 
 
+```bash
 {
     "cliente": "Alejandro",
     "fecha": "2022-01-24",
@@ -100,6 +103,7 @@ http://env-1690261.sp.skdrive.net/pedido/registrar esta es una solicitud tipo ps
     "cajas": null,
     "usuarioId": 2
 }
+```
 
 En donde 
 - usuarioId: es el id del usuario que registra el pedido
